@@ -1,0 +1,78 @@
+{
+    "menu": [{
+            "url": "/home",
+            "name": "General",
+            "icon": "menu-icon tf-icons bx bx-home-circle",
+            "slug": "dashboard-analytics"
+        },
+        {
+            "name": "Sales",
+            "icon": "menu-icon tf-icons bx bx bxl-shopify",
+            "slug": "pages-account-settings",
+            "submenu": [{
+                    "url": "/newinvoice",
+                    "name": "new invoice",
+                    "slug": "pages-account-settings-account"
+                },
+                {
+                    "url": "/salsehistory",
+                    "name": "Invoice report",
+                    "slug": "pages-account-settings-notifications"
+                }
+            ]
+        },
+        {
+            "name": "Stores",
+            "icon": "menu-icon tf-icons bx bx bx-store-alt",
+            "slug": "pages-account-settings",
+            "submenu": [{
+                    "url": "/newproduct",
+                    "name": "Register new product",
+                    "slug": "pages-account-settings-account"
+                },
+                {
+                    "url": "/addproduct",
+                    "name": "Add Product",
+                    "slug": "pages-account-settings-notifications"
+                },
+                {
+                    "url": "/showproducts",
+                    "name": "Product Report",
+                    "slug": "pages-account-settings-notifications"
+                }
+            ]
+        },
+        {
+            "name": "Expenses",
+            "icon": "menu-icon tf-icons bx bx bx-credit-card",
+            "slug": "pages-account-settings",
+            "submenu": [{
+                    "url": "/newexpense",
+                    "name": "Record new expense",
+                    "slug": "pages-account-settings-account"
+                },
+                {
+                    "url": "/expenses",
+                    "name": "Expense Report",
+                    "slug": "pages-account-settings-notifications"
+                }
+            ]
+        },
+        {
+            "name": "Partners",
+            "icon": "menu-icon tf-icons bx bx bx-group",
+            "slug": "pages-account-settings",
+            "submenu": [{
+                    "url": "/newpartner",
+                    "name": "Create new partner",
+                    "slug": "pages-account-settings-account"
+                },
+                {
+                    "url": "/partners",
+                    "name": "My Partners",
+                    "slug": "pages-account-settings-notifications"
+                }
+            ]
+        }
+    ]
+}
