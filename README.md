@@ -1,4 +1,4 @@
-#StoreManagementSystem
+# StoreManagementSystem
 
 It's include more function for managing store:
 1. seller management (profit dvid and payment reports...)
